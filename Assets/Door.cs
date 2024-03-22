@@ -11,16 +11,18 @@ public class Door : MonoBehaviour
 
     public string scenename;
 
-    private void Start()
+    private void Awake()
     {
         boxcollider = GetComponent<BoxCollider>();
         boxcollider.enabled = false;
+
     }
 
+
     public void OpenDoor(int ActiveDoor)
-    {
+    { 
         ObjectActivate += ActiveDoor ;
-        Debug.Log(ObjectActivate);
+       
         if (ObjectActivate >= DoorOpen)
         {
             boxcollider.enabled = true;
@@ -40,7 +42,6 @@ public class Door : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             SceneManager.LoadScene(scenename);
-            Debug.Log("AHHH");
         }
 
     }

@@ -7,6 +7,8 @@ TagManager:
   - PointA
   - PointB
   - Caisse
+  - Ennemy
+  - Wall
   layers:
   - Default
   - TransparentFX
