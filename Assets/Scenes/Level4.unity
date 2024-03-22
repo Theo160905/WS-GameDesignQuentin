@@ -2184,6 +2184,30 @@ PrefabInstance:
       value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 3214367655135791457, guid: 49f58f4e954f2204a8c92f7ec62516cf, type: 3}
+      propertyPath: PointD.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214367655135791457, guid: 49f58f4e954f2204a8c92f7ec62516cf, type: 3}
+      propertyPath: PointD.y
+      value: -13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214367655135791457, guid: 49f58f4e954f2204a8c92f7ec62516cf, type: 3}
+      propertyPath: PointD.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214367655135791457, guid: 49f58f4e954f2204a8c92f7ec62516cf, type: 3}
+      propertyPath: PointE.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214367655135791457, guid: 49f58f4e954f2204a8c92f7ec62516cf, type: 3}
+      propertyPath: PointE.y
+      value: -13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214367655135791457, guid: 49f58f4e954f2204a8c92f7ec62516cf, type: 3}
+      propertyPath: PointE.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214367655135791457, guid: 49f58f4e954f2204a8c92f7ec62516cf, type: 3}
       propertyPath: lineRenderer
       value: 
       objectReference: {fileID: 936812778}

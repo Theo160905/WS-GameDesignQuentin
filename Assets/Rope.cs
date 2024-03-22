@@ -6,6 +6,8 @@ public class Rope : MonoBehaviour
     [SerializeField] private GameObject Door;
     [SerializeField] private Vector3 PointB;
     [SerializeField] private Vector3 PointC;
+    [SerializeField] private Vector3 PointD;
+    [SerializeField] private Vector3 PointE;
 
     private int Active = 1;
 
